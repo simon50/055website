@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/*@import "{{ site.theme }}";*/
 
 body {
 	width: 600px;
@@ -38,6 +38,7 @@ blockquote {
 	background-color: #EBE8FC;
 	font-size: small;
 	color: black;
+	font-style: normal;
 }
 div {
    	word-wrap: break-word;
