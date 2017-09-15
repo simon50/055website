@@ -1,6 +1,3 @@
-# Socialrättsseminarium 
-
-
 # Fråga 1
 
 "*Vilka krav kan kommunen ställa på att den enskilde ska avyttra bil
