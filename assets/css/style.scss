@@ -14,34 +14,45 @@ body {
 
 h1 {
 	/*text-align: center;*/
-	font-family: arial;
+	font-family: "FreeSans", sans-serif;
 	border-left: 3px solid grey;
 	padding: 5px;
-	color: black;
 }
 
 h2 {
-	font-family: arial;
-	color: black;
+	font-family: "FreeSans", sans-serif;
 }
 
 h3 {
-	font-family: arial;
-	color: black;
+	font-family: "FreeSans", sans-serif;
+}
+
+h4 {
+	font-size: normal;
+	font-family: "FreeSans", sans-serif;
 }
 
 a {
 	color: black;
+	border-bottom: 2px double orange;
+	text-decoration: none;
+	font-family: monospace;
 }
 
 blockquote {
 	background-color: #EBE8FC;
-	font-size: small;
-	color: black;
-	font-style: normal;
 }
-div {
-   	word-wrap: break-word;
-   	width: 600px;
-	color: black;
+
+blockquote p {
+	font-size: medium;
+	font-family: "FreeSerif", serif;
+}
+
+ul {
+    list-style: square outside none;
+}
+
+p {
+	font-family: "FreeSerif", serif;
+	font-size: large;
 }
