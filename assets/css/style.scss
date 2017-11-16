@@ -32,14 +32,14 @@ a {
 }
 
 blockquote {
-	font-size: medium;
 	background-color: lightgray;
 	padding: 5px;
+	text-align: left;
 }
 
 blockquote code {
 	font-family: "FreeSerif", serif;
-	text-align: left;
+	font-size: medium;
 }
 
 blockquote > p:first-child{
