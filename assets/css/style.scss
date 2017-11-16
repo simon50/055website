@@ -31,12 +31,12 @@ a {
 	font-family: monospace;
 }
 
-blockquote {
+blockquote pre {
 	background-color: lightgray;
 	padding: 5px;
 }
 
-blockquote > p {
+blockquote > pre {
 	font-size: medium;
 	font-family: "FreeSerif", serif;
 }
