@@ -6,30 +6,22 @@
 body {
 	width: 600px;
 	margin:auto;
-	background-color: FloralWhite;
-	border-left: 15px groove mediumslateblue;
-	border-right: 15px ridge mediumslateblue;
+	border-left: 10px groove black;
+	border-right: 10px ridge black;
 	padding: 30px;
 }
 
-h1 {
-	/*text-align: center;*/
+html * {
+	font-family: "FreeSerif", serif;
+}
+
+h1, h2, h3, h4, h5, code {
 	font-family: "FreeSans", sans-serif;
+}
+
+h1 {
 	border-left: 3px solid grey;
 	padding: 5px;
-}
-
-h2 {
-	font-family: "FreeSans", sans-serif;
-}
-
-h3 {
-	font-family: "FreeSans", sans-serif;
-}
-
-h4 {
-	font-size: normal;
-	font-family: "FreeSans", sans-serif;
 }
 
 a {
@@ -40,19 +32,35 @@ a {
 }
 
 blockquote {
-	background-color: #EBE8FC;
+	background-color: lightgray;
+	padding: 5px;
 }
 
-blockquote p {
+blockquote > p {
 	font-size: medium;
-	font-family: "FreeSerif", serif;
+	font-family: "freeserif", serif;
+}
+
+blockquote > p:first-child{
+	margin-top: 0;
+}
+
+blockquote > p:last-child{
+	margin-bottom: 0;
 }
 
 ul {
     list-style: square outside none;
 }
 
+li > p {
+	font-size: medium;*/
+}
+
 p {
-	font-family: "FreeSerif", serif;
-	font-size: large;
+	font-size: large;*/
+}
+
+pre {
+	text-align: center;
 }
