@@ -31,10 +31,13 @@ a {
 	font-family: monospace;
 }
 
+blockquote pre {
+	text-align: left;
+}
+
 blockquote {
 	background-color: lightgray;
 	padding: 5px;
-	text-align: left;
 }
 
 blockquote code {
